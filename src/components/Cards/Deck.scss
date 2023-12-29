@@ -1,0 +1,27 @@
+.Deck {
+    // display: flex;
+    // flex-wrap: wrap;
+    // padding: 5px;
+    // justify-content: center;
+    // align-items: center;
+
+
+}
+
+/* Media query for small screens (up to 600px) */
+@media (max-width: 600px) {
+    .Deck {
+        position: relative;
+    }
+}
+
+/* Media query for larger screens (above 600px) */
+@media (min-width: 601px) {
+    .Deck {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 5px;
+        justify-content: center;
+        align-items: center;
+    }
+}

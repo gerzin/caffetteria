@@ -1,0 +1,11 @@
+@mixin theme-styles($theme) {
+    @if $theme ==light {
+        background-color: #fcfcfc;
+        color: #030303;
+    }
+
+    @else if $theme ==dark {
+        background-color: #030303;
+        color: #fcfcfc;
+    }
+}

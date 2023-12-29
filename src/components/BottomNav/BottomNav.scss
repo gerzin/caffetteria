@@ -1,0 +1,25 @@
+@import "../../styles/variables";
+
+
+.BottomNav {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    background-color: $background-color-light;
+    border-top: 1px solid $background-color-dark;
+    width: 100vw;
+}
+
+/* Media query for small screens (up to 600px) */
+@media (max-width: 600px) {
+    .BottomNav {
+        height: 32px;
+    }
+}
+
+/* Media query for larger screens (above 600px) */
+@media (min-width: 601px) {
+    .BottomNav {
+        height: 40px;
+    }
+}

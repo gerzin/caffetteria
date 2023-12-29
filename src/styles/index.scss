@@ -1,0 +1,35 @@
+@import 'variables';
+
+:root {
+    background-color: $background-color-light;
+
+    @if $theme ==dark {
+        background-color: $background-color-dark;
+    }
+}
+
+body {
+    background-color: $background-color-light;
+    font-family: 'San Francisco Compact', sans-serif;
+    margin: 0;
+
+    @if $theme ==dark {
+        background-color: $background-color-dark;
+    }
+
+    overflow: hidden;
+}
+
+h1 {
+    font-size: calc(1.5rem + 1vw);
+}
+
+img {
+    max-width: 100%;
+}
+
+.page {
+    height: 100vh;
+    margin: 15px;
+    box-sizing: border-box;
+}
